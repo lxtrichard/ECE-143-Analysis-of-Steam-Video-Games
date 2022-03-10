@@ -39,6 +39,8 @@ project
 
 Run the ECE-143_Analysis_of_Steam_Video_Games.ipynb jupyter notebook to call all the methods and presented the result of each method. Each method should return figures of analysis results. 
 
+The dataset we use is [Steam Store Games](https://www.kaggle.com/nikdavis/steam-store-games). We also included `steam.csv` in the `steamstore` folder.
+
 To run the clustering code, you need to use [gephi](https://gephi.org/) to generate `tags.png` from `tags.gml`.
 
 To run the recommendation system, you need to download the [Steam Video Game and Bundle Data](http://deepx.ucsd.edu/public/jmcauley/steam/) and create a `steamrecommend` folder using the following commands
