@@ -315,6 +315,7 @@ def over_the_years(df, column_name, palette=palette, rate_lim=None):
         g3.set_ylim(rate_lim)
     vals = g3.get_yticks()
     g3.set_yticklabels(['{:,.0%}'.format(x) for x in vals])
+    plt.show()
 
 over_the_years(truncated_df, 'Steam Trading Cards')
 over_the_years(truncated_df, 'Single-player', rate_lim=(0.8,1.0))
