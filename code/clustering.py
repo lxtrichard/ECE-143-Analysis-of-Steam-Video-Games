@@ -35,6 +35,9 @@ clustering = nx.clustering(G)
 nx.set_node_attributes(G, clustering, "clustering")
 nx.write_gml(G, "tags.gml")
 
-Gtag = cv2.imread("tags.png")
-plt.figure(figsize=(110, 110))
-plt.imshow(Gtag)
+# After you have generate tags.png, you can run the following code.
+
+# Gtag = cv2.imread("tags.png")
+# plt.figure(figsize=(110, 110))
+# plt.imshow(Gtag)
+# plt.show()

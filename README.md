@@ -1,5 +1,7 @@
 # ECE-143-Analysis-of-Steam-Video-Games
 
+<img src="tags.png" style="zoom:50%;" />
+
 ## Team Members
 - Jiaxuan Zhang (A15061347)
 - Xiaoyang Pan (A59004795)
@@ -18,6 +20,8 @@ project
 │   README.md
 |   ECE-143_Analysis_of_Steam_Video_Games.ipynb
 |   Group 17_Analysis of Steam Video Games.pdf
+|   tags.gml
+|   tags.png
 │
 └───steamstore
     │   steam.csv
@@ -35,6 +39,8 @@ project
 
 Run the ECE-143_Analysis_of_Steam_Video_Games.ipynb jupyter notebook to call all the methods and presented the result of each method. Each method should return figures of analysis results. 
 
+To run the clustering code, you need to use [gephi](https://gephi.org/) to generate `tags.png` from `tags.gml`.
+
 To run the recommendation system, you need to download the [Steam Video Game and Bundle Data](http://deepx.ucsd.edu/public/jmcauley/steam/) and create a `steamrecommend` folder using the following commands
 
 ```
@@ -48,7 +54,7 @@ Then you can run `code/recommendation.py` to see the results of our recommendati
 
 
 ## Third-Party Modules
-
+- [gephi](https://gephi.org/): The Open Graph Viz Platform
 - numpy
 - matplotlib
 - pandas
